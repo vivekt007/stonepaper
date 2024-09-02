@@ -5,9 +5,18 @@
     text-decoration: none;
     box-sizing: border-box;
     scroll-behavior: smooth;
-    /* scroll-padding-top: 7rem; */
-    /* color: var(--textcolor); */
-    /* font-family: 'Roboto', monospace; */
+    font-family: "Open Sans";
+}
+
+:root {
+    --Obsidian-Black: #000;
+    --Black-Tie: #141414;
+    --Shadow-Grey: #1b1b1b;
+    --Snowflake-White: #fff;
+    --Soft-Chamois: #f3f3f3;
+    --Platinum-Mist: #e1e1e1;
+    --Grey: #454545;
+    --Sunset: #fa4616;
 }
 
 main {
