@@ -1,0 +1,21 @@
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    /* scroll-padding-top: 7rem; */
+    /* color: var(--textcolor); */
+    /* font-family: 'Roboto', monospace; */
+}
+
+main {
+    width: 100%;
+    height: 100dvh;
+}
+
+iframe {
+    width: 100%;
+    height: 100dvh;
+}
