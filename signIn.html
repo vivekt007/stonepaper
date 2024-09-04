@@ -22,8 +22,13 @@
         <section class="signIn-column1 blackBg flexBox leftHidden">
             <h2 class="helvetica">SIGN IN</h2>
             <form action="#">
-                <input type="email" name="signInId" id="signInId" placeholder="EMAIL ID">
-                <input type="password" name="signInPass" id="signInPass" placeholder="PASSWORD">
+                <div class="password-container">
+                    <input type="email" name="signInId" id="signInId" placeholder="EMAIL ID">
+                </div>
+                <div class="password-container">
+                    <input type="password" name="signInPass" id="signInPass" placeholder="PASSWORD">
+                    <span class="toggle-password" onclick="togglePassword('signInPass')">&#128065;</span>
+                </div>
                 <div class="checkBoxes">
                     <input class="rememberMe-checkbox" type="checkbox" name="rememberMe" id="rememberMe">
                     <p>Remember Me</p>

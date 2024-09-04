@@ -199,9 +199,13 @@ form input[type="password"] {
 }
 
 @media (max-width: 900px) {
+    .password-container {
+        width: 100%;
+    }
+
     .signUp-column2 {
         width: 100%;
-        padding: 4rem 0.7rem;
+        padding: 4rem 2rem;
     }
 
     form input[type="email"],
@@ -213,7 +217,11 @@ form input[type="password"] {
         display: none;
     }
 
+    .checkBoxes {
+        width: 100%;
+    }
+
     .toggle-password {
-        right: 4rem;
+        right: 3rem;
     }
 }

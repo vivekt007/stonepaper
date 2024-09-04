@@ -92,7 +92,7 @@ form input[type="password"] {
     border: none;
     border-bottom: 1px solid var(--Soft-Chamois);
     color: var(--Soft-Chamois);
-    width: 80%;
+    width: 100%;
     padding: 8px 16px;
     font-size: 16px;
     opacity: 50%;
@@ -104,6 +104,19 @@ form input[type="password"] {
         opacity: 100%;
         outline: none;
     }
+}
+
+.password-container {
+    width: 80%;
+    display: flex;
+}
+
+.toggle-password {
+    position: absolute;
+    right: 9rem;
+    cursor: pointer;
+    font-size: 18px;
+    color: var(--Snowflake-White);
 }
 
 .checkBoxes {
@@ -151,10 +164,10 @@ form input[type="password"] {
     transition: 0.3s;
     cursor: pointer;
     &:hover {
-        box-shadow: 4px 4px var(--Soft-Chamois);
+        box-shadow: -4px 4px var(--Soft-Chamois);
         background-color: var(--Sunset);
         border: 1px solid var(--Sunset);
-        transform: translate(-4px, -4px);
+        transform: translate(4px, -4px);
     }
 }
 
@@ -181,6 +194,9 @@ form input[type="password"] {
 }
 
 @media (max-width: 900px) {
+    .password-container {
+        width: 100%;
+    }
     .signIn-column1 {
         width: 100%;
         padding: 4rem 2rem;
@@ -193,5 +209,13 @@ form input[type="password"] {
 
     .signIn-column2 {
         display: none;
+    }
+
+    .checkBoxes {
+        width: 100%;
+    }
+
+    .toggle-password {
+        right: 3rem;
     }
 }
