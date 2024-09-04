@@ -199,9 +199,9 @@ form input[type="password"] {
 }
 
 @media (max-width: 900px) {
-    .signUp-cloumn2 {
+    .signUp-column2 {
         width: 100%;
-        padding: 4rem 2rem;
+        padding: 4rem 0.7rem;
     }
 
     form input[type="email"],
@@ -211,5 +211,9 @@ form input[type="password"] {
 
     .signUp-column1 {
         display: none;
+    }
+
+    .toggle-password {
+        right: 4rem;
     }
 }
