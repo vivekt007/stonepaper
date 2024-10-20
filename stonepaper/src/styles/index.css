@@ -1,0 +1,21 @@
+@import url("../styles/variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    color: var(--color-black-tie);
+    font-family: "OpenSans", sans-serif;
+}
+
+.active-link {
+    color: var(--color-sunset); /* Active link color */
+}
+
+.inactive-link {
+    color: var(--color-black-tie); /* Inactive link color */
+}

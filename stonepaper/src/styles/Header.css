@@ -1,0 +1,24 @@
+@import url("../styles/variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    color: var(--color-black-tie);
+    font-family: "OpenSans";
+}
+
+/* Media queries for responsive design (if needed) */
+@media (max-width: 768px) {
+    .navbar ul {
+        gap: 20px;
+    }
+
+    .nav-logo {
+        width: 100px;
+    }
+}

@@ -1,0 +1,63 @@
+:root {
+    --color-obisidian-black: #000000;
+    --color-snowflake-white: #ffffff;
+    --color-shadow-grey: #808080;
+    --color-black-tie: #1b1b1b;
+    --color-soft-chamois: #f3f3f3;
+    --color-platinum-mist: #e1e1e1;
+    --color-sunset: #fa4616;
+}
+
+@font-face {
+    font-family: "HelveticaRegular";
+    src: url("../assets/Fonts/helvetica/Helvetica.ttf") format("truetype");
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "HelveticaBold";
+    src: url("../assets/Fonts/helvetica/Helvetica-Bold.ttf") format("truetype");
+    font-weight: 700;
+    font-style: Bold;
+}
+
+@font-face {
+    font-family: "HelveticaCompressed";
+    src: url("../assets/Fonts/helvetica/helvetica-compressed-5871d14b6903a.otf")
+        format("opentype");
+    font-weight: 800;
+    font-style: Compressed;
+}
+
+@font-face {
+    font-family: "HelveticaRounded";
+    src: url("../assets/Fonts/helvetica/helvetica-rounded-bold-5871d05ead8de.otf")
+        format("opentype");
+    font-weight: 700;
+    font-style: Rounded;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("../assets/fonts/Open_Sans/static/OpenSans-Regular.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: regular;
+}
+
+@font-face {
+    font-family: "OpenSansLight";
+    src: url("../assets/fonts/Open_Sans/static/OpenSans-Light.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: light;
+}
+
+@font-face {
+    font-family: "OpenSansBold";
+    src: url("../assets/fonts/Open_Sans/static/OpenSans-Bold.ttf")
+        format("truetype");
+    font-weight: 400;
+    font-style: bold;
+}

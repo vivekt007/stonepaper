@@ -1,0 +1,160 @@
+@import url("../styles/variables.css");
+
+* {
+    padding: 0;
+    margin: 0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    scroll-padding-top: 7rem;
+    color: var(--color-black-tie);
+    font-family: "OpenSans", sans-serif;
+}
+
+h1,
+a,
+p {
+    color: var(--color-black-tie);
+}
+
+.About-section {
+    padding-top: 8dvh;
+}
+
+.about-row1 {
+    width: 100%;
+    height: 100dvh;
+    background-image: url(../assets/BackgroundImages/aboutUs1.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    padding: 60px 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.about-row1 h1 {
+    font-family: "OpenSansLight";
+    font-size: 80px;
+    text-align: center;
+    font-weight: 400;
+    color: var(--color-black-tie);
+}
+
+.about-row1 p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-row2,
+.about-row5 {
+    width: 100%;
+    height: 100dvh;
+    display: flex;
+}
+
+.about-r2-col1,
+.about-r2-col2,
+.about-r5-col1,
+.about-r5-col2 {
+    width: 50%;
+    height: 100%;
+    display: flex;
+    gap: 60px;
+}
+
+.about-r2-col1,
+.about-r5-col2 {
+    padding: 0 60px 0 60px;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 32px;
+}
+
+.about-r2-c1-row1 {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-r2-c1-row1 h1,
+.about-r5-c1-row1 h1,
+.about-r5-c1-row2 h1 {
+    font-family: "OpenSansLight";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 120%;
+}
+
+.about-r2-c1-row2 p,
+.about-r5-c1-row1 p {
+    font-size: 24px;
+}
+
+.about-r5-c1-row2 p {
+    font-size: 24px;
+}
+
+.about-r5-c1-row2 span,
+.about-r5-c1-row2 a {
+    /* font-weight: 1000; */
+    font-family: "OpenSansBold";
+
+    /* color: #fa4616; */
+}
+
+.about-r2-col2 {
+    background-image: url(../assets/BackgroundImages/aboutUs2.png);
+    background-size: cover;
+    background-position: left;
+    background-repeat: no-repeat;
+}
+
+.about-r5-col1 {
+    background-image: url(../assets/BackgroundImages/Buyback.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.about-row3 {
+    width: 100%;
+    height: 100dvh;
+    padding: 60px;
+}
+
+.about-r3-row1,
+.about-r4-row1 {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    padding: 0 0 40px 0;
+}
+
+.about-r3-row1 h1,
+.about-r4-row1 h1 {
+    font-family: "OpenSansLight";
+    font-size: 80px;
+    font-weight: 400;
+    line-height: 120%;
+    text-align: center;
+}
+
+.about-r3-row1 p,
+.about-r4-row1 p {
+    font-size: 24px;
+    text-align: center;
+}
+
+.about-row4 {
+    width: 100%;
+    height: 100dvh;
+}
+
+.collection-section {
+    display: flex;
+    gap: 40px;
+}
